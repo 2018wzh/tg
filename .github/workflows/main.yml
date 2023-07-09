@@ -35,7 +35,7 @@ jobs:
     - name: build and deploy master image to ghcr.io
       # if: ${{ github.ref == 'refs/heads/master' }}
       env:
-        PKG_TOKEN: ${{ secrets.PKG_TOKEN }}
+        PKG_TOKEN: ${{ secrets.GITHUB_TOKEN }}
         USERNAME: ${{ github.actor }}
       run: |
         git_hash=$(git rev-parse --short "$GITHUB_SHA")
