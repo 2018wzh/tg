@@ -290,3 +290,4 @@ Run task to automatically increase version and release (https://taskfile.dev):
 ```sh
 task release
 ```
+
