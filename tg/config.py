@@ -74,7 +74,7 @@ URL_VIEW = "urlview"
 
 USERS_COLORS = tuple(range(2, 16))
 
-KEEP_MEDIA = 7
+KEEP_MEDIA = 0
 
 FILE_PICKER_CMD = "ranger --choosefile={file_path}"
 
